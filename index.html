@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUTCLOFIT - Probador Virtual</title>
+ 
+    <!--icono en pestaña-->
+    <link rel="shortcut icon" href="icon.svg" type="image/svg+xml">
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="stylesP.css">
+    <!--Fuentes de la pagina-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+   
+</head>
+<body id="top">
+   <!--#Header-->
+   <header class="header" data-header>
+    <div class="container">
+        <h1>
+            <a href="#" class="logo">OUTCLOFIT</a>
+        </h1>
+ 
+        <!--navbar-->
+        <nav class="navbar" data-navbar=>
+            <div class="navbar-top">
+                <a href="#" class="logo">OUTCLOFIT</a>
+ 
+                <button class="nav-close-btn" aria-Label="Clase menu" data-navbar-toggler>
+                    <ion-icon name="close-outline"></ion-icon>
+ 
+                </button>
+            </div>
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link" data-nav-link>
+                        <span>Inicio</span>
+                        <ion-icon name="chevron-forward"></ion-icon>
+                    </a>
+                </li>
+                        <li class="navbar-item">
+                            <a href="#about" class="navbar-link" data-nav-link>
+                                <span>Acerca de</span>
+                                <ion-icon name="chevron-forward"></ion-icon>
+                            </a>
+                        </li>
+                                <li class="navbar-item">
+                                    <a href="#services" class="navbar-link" data-nav-link>
+                                        <span>Servicios</span>
+                                        <ion-icon name="chevron-forward"></ion-icon>
+                                    </a>
+                                </li>
+                                        <li class="navbar-item">
+                                            <a href="#funcion" class="navbar-link" data-nav-link>
+                                                <span>Como funciona</span>
+                                                <ion-icon name="chevron-forward"></ion-icon>
+                                            </a>
+                                        </li>
+                                                <li class="navbar-item">
+                                                    <a href="#tiendas" class="navbar-link" data-nav-link>
+                                                        <span>Mis tiendas</span>
+                                                        <ion-icon name="chevron-forward"></ion-icon>
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item">
+                                                    <a href="#footer" class="navbar-link" data-nav-link>
+                                                        <span>Contacto</span>
+                                                        <ion-icon name="chevron-forward"></ion-icon>
+                                                    </a>
+                                                </li>
+            </ul>
+        </nav>
+        
+        <button class="nav-open-btn" aria-label="Open menu" data-nav-toggler>
+            <ion-icon name="menu-outline"></ion-icon>
+        </button>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+   </header>
+ 
+ 
+   <main>
+    <article>
+        
+        <!--#hero-->
+        <section class="section hero" aria-label="home" id="home";>
+            <video autoplay loop muted id="video-bg" class="" src="images/hero3.mp4"></video>
+                
+<div class="container">
+    <div class="hero-content">
+        <h2 class="h1 hero-title">
+            <span class="span"> Agiliza</span> tus compras
+        </h2>
+        <p class="hero-text">Descubre como nuestro probador virtual
+            puede transformar tu experiencia de compra. Ofreciendo una nueva forma
+            de probar ropa sin necesidad de ponertela.
+        </p>
+        <a href="#" class="btn-outline">Ver Más </a>
+    </div>
+</div>
+        </section>
+    </article>
+   </main>
+     <!--About-->
+ 
+            <section class="section about" id="about" aria-label="about">
+                <div class="container">
+                    <figure class="about-banner img-holder" style="--width:400; --height:720;">
+                        <img src="/images/outfit1.jpeg" width="400" height="420" loading="lazy" alt="" class="img-cover">
+                        <img src="/images/outfit2.jpeg" width="260" height="130" loading="lazy" alt="" class="abs-img abs-img-1">
+                        <img src="/images/outfit1.jpeg" width="500" height="500" loading="lazy" alt="" class="abs-img abs-img-2">
+                    </figure>
+                    <div class="about-content">
+                        <p class="section-subtitle">¿Que es OUTCLOFIT?</p>
+                        <h2 class="h2 section-title">Somos una Experiencia y una Solución a tus OUTFITS</h2>
+                            <p class="section-text">En OUTCLOFIT ofrecemos una nueva experiencia al momento de probarte ropa,
+                                nos comprometemos a darte una Experiencia con nuestro probador virtual y Solucionar tus problemas en Probadores Físicos.
+                            </p>
+                                <ul class="about-list">
+                                    <li class="about-item">
+                                        <div class="about-icon">
+                                            <ion-icon name="accessibility-outline"></ion-icon>
+                                        </div>
+                                        <p class="about-text">Sin esperar a Probadores Físicos</p>
+                                    </li>
+                                    <li class="about-item">
+                                        <div class="about-icon">
+                                            <ion-icon name="accessibility-outline"></ion-icon>
+                                        </div>
+                                        <p class="about-text">Variedad</p>
+                                    </li>
+                                    <li class="about-item">
+                                        <div class="about-icon">
+                                            <ion-icon name="accessibility-outline"></ion-icon>
+                                        </div>
+                                        <p class="about-text">Seguimiento en tiempo real</p>
+                                    </li>
+                                    <li class="about-item">
+                                        <div class="about-icon">
+                                            <ion-icon name="accessibility-outline"></ion-icon>
+                                        </div>
+                                        <p class="about-text">Alertas de Stock</p>
+                                    </li>
+                                    <li class="about-item">
+                                        <div class="about-icon">
+                                            <ion-icon name="accessibility-outline"></ion-icon>
+                                        </div>
+                                        <p class="about-text">Prueba diferentes prendas al mismo tiempo</p>
+                                    </li>
+                                    <li class="about-item">
+                                        <div class="about-icon">
+                                            <ion-icon name="accessibility-outline"></ion-icon>
+                                        </div>
+                                        <p class="about-text">Descuentos por usar nuestro Probador</p>
+                                    </li>
+                                </ul>
+                                <button class="btn"><a href="#">Explorar Más</a></button>
+                    </div>
+                   
+                </div>
+            </section>
+ 
+        </article>
+        
+    </article>
+        <article>
+            <section class="section services" id="services" aria-label="services">
+                <div class="container">
+                    <div id="team-members">
+                        <article class="team-member">
+                            <img
+                                class="team-member-avatar"
+                                src="images/prob1.webp"
+                                alt=""
+                            >
+                            <div class="team-member-name">
+                                <h3>Probador Virtual</h3>
+                                <p></p>
+                            </div>
+                           
+                        </article>
+                        <article class="team-member">
+                            <img
+                                class="team-member-avatar"
+                                src="images/bershka.webp"
+                                alt=""
+                            >
+                            <div class="team-member-name">
+                                <h3>
+                                    Multiples Marcas
+                                </h3>
+                                <p>
+                                    
+                                </p>
+                            </div>
+                           
+                        </article>
+                        <article class="team-member">
+                            <img
+                                class="team-member-avatar"
+                                src="images/person1.webp"
+                                alt=""
+                            >
+                            <div class="team-member-name">
+                                <h3>
+                                    Experiencia Personalizada
+                                </h3>
+                                <p>
+                                    
+                                </p>
+                            </div>
+                            
+                        </article>
+                    </div>
+                    <div class="services-content">
+                        
+                        <p class="services-subtitle">¿Que Servicios ofrece OUTCLOFIT?</p>
+                        <h2 class="h2 section-title">En OUTCLOFIT ofrecemos distintos servicios</h2>
+                        
+                    </div>
+                </div>
+                
+            </section>
+        </article>
+       
+        <article> <section class="section about" id="funcion" aria-label="about">
+            <div class="container">
+                <h1 class="services-subtitle">Probador Virtual</h1>
+                <button class="openCamera">Abrir Cámara</button>
+                <button class="changeImage">Cambiar Imagen</button>
+                <div class="video-container">
+                  <video id="video" autoplay playsinline></video>
+                  <canvas id="canvas"></canvas>
+                </div>
+              </div>
+        </section>
+        <article>
+          <section class="section services" id="tiendas" aria-label="services">
+            <div class="services-content">
+                      
+              <p class="tiendas-subtitle">Nuestros Partners</p>
+              
+          </div>
+            <div class="gallery">
+              <div class="card-p">
+                  <figure>
+                      <img
+                          src="images/bershka.webp"
+                          alt="bershka" width="100%"
+                      >
+                  </figure>
+              </div>
+              <div class="card-p">
+                  <figure>
+                      <img
+                          src="images/ccp.png"
+                          alt="cuidado con el perro" width="100%"
+                      >
+                  </figure>
+              </div>
+              <div class="card-p">
+                  <figure>
+                      <img
+                          src="images/liverpool_logo.png"
+                          alt="Liverpool" width="100%"
+                      >
+                  </figure>
+              </div>
+              <div class="card-p">
+                  <figure>
+                      <img
+                          src="images/plhierro.png"
+                          alt="Palacio de Hierro" width="100%" height="100%"
+                      >
+                  </figure>
+              </div>
+              
+          </div>            
+                  
+              </div>
+              
+          </section>
+      </article>
+        
+    </main>
+    <!--footer-->
+    <footer class="footer" id="footer">
+        <div class="footer-top section">
+          <div class="footer-brand">
+            <a href="#" class="logo">OUTCLOFIT</a>
+  
+            <p class="footer-texts">
+              Tu probador virtual
+            </p>
+  
+            <ul class="social-link">
+  
+              <li>
+                <a href="https://www.facebook.com/people/Outclofit/61563744467466/?mibextid=LQQJ4d&rdid=NUVdElR63ENtAtlE&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FpnArgQZCaykEyN3f%2F%3Fmibextid%3DLQQJ4d" class="social-list">
+                  <ion-icon name="logo-facebook"></ion-icon>@Outclofit
+                </a>
+              </li>
+  
+              <li>
+                <a href="https://x.com/outclofit" class="social-list">
+                  <ion-icon name="logo-twitter"></ion-icon>@Outclofit
+                </a>
+              </li>
+  
+              <li>
+                <a href="https://www.instagram.com/outclofit_oficial/" class="social-list">
+                  <ion-icon name="logo-instagram"></ion-icon>@Outclofit_oficial
+                </a>
+              </li>
+  
+            </ul>
+  
+          </div>
+  
+          <ul class="footer-links">
+  
+            <li>
+              <p class="footer-list-title">Links</p>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-list">Acerca de</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-list">Servicios</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-list">Blog</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-list">FAQ</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-list">Contacto</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="footer-list">
+  
+            <li>
+              <a href="#"><p class="footer-list-title">Servicios</p></a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-list">Probador Virtual</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-list"> Multiples Marcas</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-list">Experiencia Personalizada</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="footer-list">
+  
+            <li>
+              <p class="footer-list-title">Comunidad</p>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-list">Partners</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-list">FeedBack</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-list">Encuentra tu Probador</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-list">Política de Privacidad</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-list">Términos y Condiciones</a>
+            </li>
+  
+          </ul>
+  
+        </div>
+  
+        <div class="footer-bottom" >
+          <p class="copyright">
+            &copy; 2024 - Todos los derechos reservados <a href="#home" class="copyright-link">OUTCLOFIT</a>
+          </p>
+        </div>
+  
+      </div>
+    </footer>
+    <script src="scriptP.js" defer></script>
+    <!-- -js link -->
+<script src="script.js" defer></script>
+ 
+<!-- -ionicon link -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+ 
+ 
+ 
+ 
+ 
+   
+    <!--
+    -  js link
+  -->
+  
+<script src="js/script.js" defer></script>
+<script src="js/script2.js" defer></script>
+<script src="js/script3.js" async></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+ 
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
